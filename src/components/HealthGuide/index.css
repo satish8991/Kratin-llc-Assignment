@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  min-height: 180vh;
+}
+
+.heading {
+  color: #238910;
+  text-align: center;
+}
+.para {
+  color: #3b82f6;
+  text-align: center;
+  align-self: center;
+  font-size: 24px;
+  font-weight: bold;
+  width: 90%;
+}
+.remainder-para {
+  color: #3b82f6;
+  font-size: 24px;
+  font-weight: bold;
+  width: 90%;
+}
+.tips-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.remainder-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-self: center;
+}
+.task-input {
+  width: 50%;
+  padding-left: 15px;
+  margin-top: 15px;
+  outline: none;
+  height: 25px;
+  font-weight: bold;
+  color: #000000;
+}
+.time-input {
+  width: 35%;
+  padding-left: 15px;
+  margin-top: 15px;
+  outline: none;
+  height: 25px;
+  font-weight: bold;
+  color: #000000;
+}
+.save-button {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #3b82f6;
+  width: 80px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.add-button {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #00306e;
+  width: 80px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.todos-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-self: center;
+}
+.paragraph {
+  width: 90%;
+  align-self: center;
+  font-weight: 600;
+}
+.label {
+  font-weight: bold;
+  margin-top: 15px;
+}

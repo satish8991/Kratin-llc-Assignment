@@ -1,0 +1,12 @@
+.nav-container {
+  display: flex;
+  height: 120px;
+  width: 100%;
+  align-items: center;
+  background-color: aliceblue;
+}
+.company-logo {
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
+}
